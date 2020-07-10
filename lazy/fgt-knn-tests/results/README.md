@@ -1,15 +1,16 @@
 # Stream Learning Research Project
 
-## [Experiments' Results](https://github.com/dlcaio/research-project-stream-learning/tree/master/lazy/fgt-knn-tests/results/)
+## Experiments' Results
 
-#### Artificial
-* [SEA Concepts](https://github.com/vlosing/driftDatasets/tree/master/artificial/sea)
+### Artificial
+####[SEA Concepts](https://github.com/vlosing/driftDatasets/tree/master/artificial/sea)
 	* 50000 instances
 	* Drift Properties:
 		* Abrupt
 		* Real
 	* 2 classes
 	* 3 features
+##### k = 3
 ![](rotating-hyperplane-3.png)
 * [Rotating Hyperplane](https://github.com/vlosing/driftDatasets/tree/master/artificial/hyperplane)
 	* 200000 instances
