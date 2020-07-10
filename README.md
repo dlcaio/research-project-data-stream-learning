@@ -9,13 +9,21 @@ Unlike in **Batch Machine Learning**, where machine learning processes happen in
 ## k-nearest neighbors
 k-nearest neighbors is a pattern recognition method where input data is classified based on its distance to previously seen (and labeled) data points. Because previously seen data points are required for classification and the fact that memory is a concern in Stream Learning, **k-nearest neighbors in Stream Learning** is achieved by adding to it a **sliding window**, which stores a previously-chosen number of the most recent data points for every new input data.
 ## Concept Drift
+Concept Drift refers basically to the phenomenom of data distribution changing over time, something very feasible in the context of Stream Learning.
+There are 2 different concept drift types
+* Real: Refers to changes in the distribution of the target variable with respect to the input data, even if the latter is unchanged.
+* Virtual: Refers to changes in the input data without affecting the target variable distribution
+![](drifts.png)
+
+Additionaly, changes may occur at a different pace and frequency over time, so time-related classifications also exist. These can be explained in the image below
+![](drifts-over-time.png)
 
 ## Experiments
 ### Framework
 * The experiments were conduced using [scikit-multiflow](https://scikit-multiflow.github.io/), a Python Machine Learning on Data Streams framework.
 * matplotlib was used for plot visualization.
 ### Datasets used
-Initial experiments were conducted using 7 [datasets](), with different concept drift properties. 5 of are [**artificial**](), and 2 are [**real-world**]() datasets:
+Initial experiments were conducted using 7 [datasets](), with different concept drift properties. 5 of are **artificial**, and 2 are real-world datasets:
 #### Artificial
 * [SEA Concepts](https://github.com/vlosing/driftDatasets/tree/master/artificial/sea)
 	* 50000 instances
