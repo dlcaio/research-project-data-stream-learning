@@ -13,10 +13,10 @@ Concept Drift refers basically to the phenomenom of data distribution changing o
 There are 2 different concept drift types
 * Real: Refers to changes in the distribution of the target variable with respect to the input data, even if the latter is unchanged.
 * Virtual: Refers to changes in the input data without affecting the target variable distribution
-![](drifts.png)[1]
+![](drifts.png)**[1]**
 
 Additionaly, changes may occur at a different pace and frequency over time, so time-related classifications also exist. These can be explained in the image below
-![](drifts-over-time.png)[1]
+![](drifts-over-time.png)**[1]**
 
 ## Experiments
 ### Framework
