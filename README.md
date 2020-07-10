@@ -13,10 +13,10 @@ Concept Drift refers basically to the phenomenom of data distribution changing o
 There are 2 different concept drift types
 * Real: Refers to changes in the distribution of the target variable with respect to the input data, even if the latter is unchanged.
 * Virtual: Refers to changes in the input data without affecting the target variable distribution
-![](drifts.png)
+![](drifts.png)[1]
 
 Additionaly, changes may occur at a different pace and frequency over time, so time-related classifications also exist. These can be explained in the image below
-![](drifts-over-time.png)
+![](drifts-over-time.png)[1]
 
 ## Experiments
 ### Framework
@@ -39,7 +39,7 @@ Initial experiments were conducted using 7 [datasets](), with different concept 
 		* Real
 	* 2 classes
 	* 10 features
-* [Interchanging RBF](https://github.com/vlosing/driftDatasets/tree/master/artificial/rbf) **[1]**
+* [Interchanging RBF](https://github.com/vlosing/driftDatasets/tree/master/artificial/rbf) **[2]**
 	* 200000 instances
 	* Drift Properties:
 		* Abrupt
@@ -54,7 +54,7 @@ Initial experiments were conducted using 7 [datasets](), with different concept 
 		* Virtual
 	* 8 classes
 	* 2 features
-* [Mixed Drift](https://github.com/vlosing/driftDatasets/tree/master/artificial/mixedDrift) **[3]**
+* [Mixed Drift](https://github.com/vlosing/driftDatasets/tree/master/artificial/mixedDrift) **[2]**
 	* 600000 instances
 	* Drift Properties:
 		* Various
@@ -89,10 +89,13 @@ Initial experiments were conducted using 7 [datasets](), with different concept 
 
 ## Future work
 In addition to the experiments conducted, there a few possibilities of other experiments:
-* Conduct similiar experiments, but using [SAM-KNN](https://www.researchgate.net/publication/318830045_Self-Adjusting_Memory_How_to_Deal_with_Diverse_Drift_Types) **[4]** instead of KNN.
+* Conduct similiar experiments, but using [SAM-KNN](https://www.researchgate.net/publication/318830045_Self-Adjusting_Memory_How_to_Deal_with_Diverse_Drift_Types) **[3]** instead of KNN.
 * Dropping the whole memory and starting it from scratch every time data is erased, and comparing this against the conducted experiments.
 * Testing with erasing not only the most recent examples periodically, but also random examples.
 ## References
-**1, 2, 3.** V. Losing, B. Hammer and H. Wersing, "KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift," 2016 IEEE 16th International Conference on Data Mining (ICDM), Barcelona, 2016, pp. 291-300, doi: 10.1109/ICDM.2016.0040.
+**1.** Gama, J., Žliobaitė, I., Bifet, A., Pechenizkiy, M., Bouchachia, A.: A survey on
+concept drift adaptation. ACM Comput. Surv. 46(4) (2014)
 
-**4.** Losing, Viktor & Hammer, Barbara & Wersing, Heiko. (2017). Self-Adjusting Memory: How to Deal with Diverse Drift Types. 4899-4903. 10.24963/ijcai.2017/690.
+**2.** V. Losing, B. Hammer and H. Wersing, "KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift," 2016 IEEE 16th International Conference on Data Mining (ICDM), Barcelona, 2016, pp. 291-300, doi: 10.1109/ICDM.2016.0040.
+
+**3.** Losing, Viktor & Hammer, Barbara & Wersing, Heiko. (2017). Self-Adjusting Memory: How to Deal with Diverse Drift Types. 4899-4903. 10.24963/ijcai.2017/690.
