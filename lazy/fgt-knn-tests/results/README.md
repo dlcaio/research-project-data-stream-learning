@@ -10,7 +10,7 @@
 		* Real
 	* 2 classes
 	* 3 features
-	![](rotating-hyperplane-3.png =50x20)
+![](rotating-hyperplane-3.png)
 * [Rotating Hyperplane](https://github.com/vlosing/driftDatasets/tree/master/artificial/hyperplane)
 	* 200000 instances
 	* Drift Properties:
