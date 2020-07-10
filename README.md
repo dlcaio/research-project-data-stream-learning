@@ -86,4 +86,5 @@ In addition to the experiments conducted, there a few possibilities of other exp
 * Testing with erasing not only the most recent examples periodically, but also random examples.
 ## References
 **1, 2, 3.** V. Losing, B. Hammer and H. Wersing, "KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift," 2016 IEEE 16th International Conference on Data Mining (ICDM), Barcelona, 2016, pp. 291-300, doi: 10.1109/ICDM.2016.0040.
+
 **4.** Losing, Viktor & Hammer, Barbara & Wersing, Heiko. (2017). Self-Adjusting Memory: How to Deal with Diverse Drift Types. 4899-4903. 10.24963/ijcai.2017/690.
