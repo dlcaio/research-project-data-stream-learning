@@ -1,4 +1,4 @@
-# Stream Learning Research Project
+# 'Right to Be Forgotten': Analyzing the Impact of Forgetting Data Using $K$-NN Algorithm in Data Stream Learning
 
 
 
