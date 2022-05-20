@@ -1,4 +1,4 @@
-# 'Right to Be Forgotten': Analyzing the Impact of Forgetting Data Using $K$-NN Algorithm in Data Stream Learning
+# 'Right to Be Forgotten': Analyzing the Impact of Forgetting Data Using _K_-NN Algorithm in Data Stream Learning
 
 
 
